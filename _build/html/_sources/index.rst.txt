@@ -12,7 +12,7 @@ Welcome to DS 320 Project's documentation!
 
 NHL API Game Data
 +++++++++++++++++++++++
-.. figure:: https://en.wikipedia.org/wiki/File:05_NHL_Shield.svg#/media/File:05_NHL_Shield.svg
+.. figure:: https://1000logos.net/wp-content/uploads/2017/05/NHL-Logo.png
 
 Using NHL game data from the NHL API, we were able to plot the location of many different game events (shots, hits, goals) for each game in this NHL season. The most useful aspect of our project is our heat maps of shots and if the shot resulted in a goal or a save. 
 
