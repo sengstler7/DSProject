@@ -15,7 +15,7 @@ NHL API Game Data
 .. figure:: https://cohenconnect.files.wordpress.com/2018/02/nhl-logo.png
 
 Using NHL game data from the NHL API, we were able to plot the location of many different game events (shots, hits, goals) for each game in this NHL season. The most useful aspect of our project is our heat maps of shots and if the shot resulted in a goal or a save. 
-`Click here to view the NHL API <https://github.com/erunion/sport-api-specifications/tree/master/nhl>
+`Click here to view the NHL API <https://github.com/erunion/sport-api-specifications/tree/master/nhl>`_
 
 
 Indices and tables
