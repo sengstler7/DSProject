@@ -38,6 +38,9 @@ Imaginary plot of face-offs
 
 
 Interactive Charts!!
+========================
+Plots with interactive charts
+
 
 Indices and tables
 ==================
