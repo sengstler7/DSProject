@@ -50,12 +50,18 @@
 <li><a class="reference internal" href="#">Welcome to DS 320 Project&#8217;s documentation!</a><ul>
 <li><a class="reference internal" href="#nhl-api-game-data">NHL API Game Data</a></li>
 <li><a class="reference internal" href="#plotting-goals-vs-saves">Plotting Goals vs Saves</a></li>
-<li><a class="reference internal" href="#plotting-hits">Plotting Hits</a></li>
-<li><a class="reference internal" href="#im-still-testing-the-website">Im Still Testing the website</a></li>
-<li><a class="reference internal" href="#plotting-face-offs">Plotting Face-offs</a></li>
+<li><a class="reference internal" href="#hardest-worker">Hardest Worker</a></li>
+<li><a class="reference internal" href="#hardest-working-player">Hardest Working Player</a></li>
+<li><a class="reference internal" href="#most-effetive-player">Most Effetive Player</a></li>
+<li><a class="reference internal" href="#most-goals">Most Goals</a></li>
+<li><a class="reference internal" href="#most-blocked-shots">Most Blocked Shots</a></li>
+<li><a class="reference internal" href="#most-take-aways">Most Take-aways</a></li>
+<li><a class="reference internal" href="#most-give-aways">Most Give-aways</a></li>
+<li><a class="reference internal" href="#biggest-hitter">Biggest Hitter</a></li>
+<li><a class="reference internal" href="#least-disciplined">Least Disciplined</a></li>
+<li><a class="reference internal" href="#summary">Summary</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#interactive-charts">Interactive Charts!!</a></li>
 <li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
 </ul>
 
@@ -127,22 +133,57 @@
 <p>We can see that he tends to face a lot of shots close to the net, in the slot and in the crease. He tends to give up goals from those regions, as well as from shots near the blueline/point.</p>
 <p>..figure:: Bob.png</p>
 </div>
-<div class="section" id="plotting-hits">
-<h2>Plotting Hits<a class="headerlink" href="#plotting-hits" title="Permalink to this headline">¶</a></h2>
-<p>Imaginary plot of hits</p>
+<div class="section" id="hardest-worker">
+<h2>Hardest Worker<a class="headerlink" href="#hardest-worker" title="Permalink to this headline">¶</a></h2>
+<p>For our next visualization we created deals with who on the ice is the hardest worker. We took players based on the number of times they appeared as &#8216;Xer&#8217; or &#8216;Xee&#8217; and added them together.
+..figure:: HarderWorkingPlayerDistrubtion.png
+Like most sport stat distributions, this plot is heavily skewed. Because all of our plots had the same issue with the skewness, we decided that it would be mroe interesting to highlight a few specific players and see what they do best.</p>
 </div>
-<div class="section" id="im-still-testing-the-website">
-<h2>Im Still Testing the website<a class="headerlink" href="#im-still-testing-the-website" title="Permalink to this headline">¶</a></h2>
-<p><a href="#id1"><span class="problematic" id="id2">`</span></a>In this notebook notebook</p>
+<div class="section" id="hardest-working-player">
+<h2>Hardest Working Player<a class="headerlink" href="#hardest-working-player" title="Permalink to this headline">¶</a></h2>
+<p>We can see in black the hits he takes and gives around the boards, the shots he has blocked and blocks in pink,and the shots and goals in blue and green. He seems to have a lot of ‘dump ins’ or shots from the blue line, and takes a lot of abuse in the corners.</p>
+<p>..figure::BoHorvat.png</p>
 </div>
-<div class="section" id="plotting-face-offs">
-<h2>Plotting Face-offs<a class="headerlink" href="#plotting-face-offs" title="Permalink to this headline">¶</a></h2>
-<p>Imaginary plot of face-offs</p>
+<div class="section" id="most-effetive-player">
+<h2>Most Effetive Player<a class="headerlink" href="#most-effetive-player" title="Permalink to this headline">¶</a></h2>
+<p>For the most effective worker, we took the number of times that person was the Xer and divided it by the number of times they were the Xee. The most effective by our measure was Rasmus Ristolainen:
+His graph looks very similar to Bo Horvat&#8217;s, but with more blocked shots and hits. This makes sense as Ristolainen is a defender, while Horvat plays as a center.
+..figure::Risto.png</p>
 </div>
+<div class="section" id="most-goals">
+<h2>Most Goals<a class="headerlink" href="#most-goals" title="Permalink to this headline">¶</a></h2>
+<p>This chart is the location of all the shots (blue) and goals(green) that Winnipeg Jets forward Patrik Laine has taken this season.
+..figure::Laine.png</p>
 </div>
-<div class="section" id="interactive-charts">
-<h1>Interactive Charts!!<a class="headerlink" href="#interactive-charts" title="Permalink to this headline">¶</a></h1>
-<p>Plots with interactive charts</p>
+<div class="section" id="most-blocked-shots">
+<h2>Most Blocked Shots<a class="headerlink" href="#most-blocked-shots" title="Permalink to this headline">¶</a></h2>
+<p>Ian Cole, a defender for the Pittsburgh Penguins takes the crown as the player with the most blocked shots this season. It makes sense that most of his blocks are clustered right in front of the crease, as a defender its his job to protect the net.
+..figure::IanCole.png</p>
+</div>
+<div class="section" id="most-take-aways">
+<h2>Most Take-aways<a class="headerlink" href="#most-take-aways" title="Permalink to this headline">¶</a></h2>
+<p>Florida Panthers&#8217; forward Aleksander Barkov is the NHL&#8217;s take-away king. As a center, he is required to be more defensively responsible than his two wings.
+..figure::Barkov.png</p>
+</div>
+<div class="section" id="most-give-aways">
+<h2>Most Give-aways<a class="headerlink" href="#most-give-aways" title="Permalink to this headline">¶</a></h2>
+<p>On the other end of the spectrum we have the player with the most give-aways. Somewhat surprisingly this player is Drew Doughty, an all-star defenseman for the Los Angeles Kings.
+..figure::Doughty.png</p>
+</div>
+<div class="section" id="biggest-hitter">
+<h2>Biggest Hitter<a class="headerlink" href="#biggest-hitter" title="Permalink to this headline">¶</a></h2>
+<p>Hockey is a contact sport, and William Carrier of the Vegas Golden Knights is a perfect example of that. Carrier is leading the NHL in hits this season, and is on pace to break the record for most hits recorded in a season.
+..figure::Carrier.png</p>
+</div>
+<div class="section" id="least-disciplined">
+<h2>Least Disciplined<a class="headerlink" href="#least-disciplined" title="Permalink to this headline">¶</a></h2>
+<p>However, some players cross the line with their play. Whether it be through stick infractions or dangerous hits, players do need to serve their time in the penalty box if they make a mistake. Evander Kane, however has had a tough time learning his lesson, leading the NHL in penalties taken this season.
+..figure::EvanderKane.png</p>
+</div>
+<div class="section" id="summary">
+<h2>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">¶</a></h2>
+<p>There is a lot of potential in this dataset to create in depth scouting reports for players and teams. Our Data Visualisations are on the beginning of what you can find using the NHL&#8217;s API, and with the world of hockey changing very quickly, there is always more work to be done when analysing players.</p>
+</div>
 </div>
 <div class="section" id="indices-and-tables">
 <h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
