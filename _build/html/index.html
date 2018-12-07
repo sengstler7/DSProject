@@ -93,12 +93,39 @@
 <div class="figure">
 <img alt="https://cohenconnect.files.wordpress.com/2018/02/nhl-logo.png" src="https://cohenconnect.files.wordpress.com/2018/02/nhl-logo.png" />
 </div>
-<p>Using NHL game data from the NHL API, we were able to plot the location of many different game events (shots, hits, goals) for each game in this NHL season. The most useful aspect of our project is our heat maps of shots and if the shot resulted in a goal or a save.
+<p>Our project uses the NHL API to plot on ice locations for various types of plays that have happened so far this season.
 <a class="reference external" href="https://github.com/erunion/sport-api-specifications/tree/master/nhl">Click here to view the NHL API</a></p>
+<p>We were able to scrape every game so far this season and break down every interesting play. We took the data we got and broke it down into these columns:
+&#8216;Game_id&#8217;
+&#8216;Event_idx&#8217;, &#8216;Period&#8217;
+&#8216;Period_Time&#8217;
+&#8216;Period_Time_Remaining&#8217;
+&#8216;Period_Type&#8217;
+&#8216;Event&#8217;- &#8216;Faceoff&#8217;,&#8217;Hit&#8217;,&#8217;Shot&#8217;,&#8217;Giveaway&#8217;,&#8217;Missed Shot&#8217;,&#8217;Blocked Shot&#8217;,&#8217;Takeaway&#8217;,&#8217;Goal&#8217;,&#8217;Penalty&#8217;
+&#8216;Xer&#8217; – The person performing the action
+&#8216;Xer_id&#8217;
+&#8216;Xer_team&#8217;
+&#8216;Xee&#8217; – The person having the action done on them
+&#8216;Xee_id&#8217;
+&#8216;Xee_team&#8217;
+&#8216;tx&#8217; -True Y value
+&#8216;ty&#8217; -True Y value
+&#8216;ax&#8217; -Halfsheet adjusted x
+&#8216;ay&#8217; - Halfsheet adjusted y
+&#8216;Secondary_Type&#8217; -Shot type on shots and goals, penalty type on penalties
+&#8216;Pen_Min&#8217; – penalty minutes
+&#8216;Ass1&#8217; -Assist1
+&#8216;Assid1&#8217;
+&#8216;Ass2&#8217; -Assist2
+&#8216;Assid2&#8217;
+&#8216;Strength&#8217; -powerplay even or shorthanded
+&#8220;EN&#8221; -True or False if the goal was into an empty net</p>
 </div>
 <div class="section" id="plotting-goals-vs-saves">
 <h2>Plotting Goals vs Saves<a class="headerlink" href="#plotting-goals-vs-saves" title="Permalink to this headline">¶</a></h2>
-<p>Imaginary plot of shots</p>
+<p>Our first question was where certain goalies are more likely to give up goals from. The system we set up is interactive, but because of the limitations of this website, we were unable to port it over. Here is a map of Sergei Bobrovsky.</p>
+<p>We can see that he tends to face a lot of shots close to the net, in the slot and in the crease. He tends to give up goals from those regions, as well as from shots near the blueline/point.</p>
+<p>..figure:: Bob.png</p>
 </div>
 <div class="section" id="plotting-hits">
 <h2>Plotting Hits<a class="headerlink" href="#plotting-hits" title="Permalink to this headline">¶</a></h2>
@@ -106,6 +133,7 @@
 </div>
 <div class="section" id="im-still-testing-the-website">
 <h2>Im Still Testing the website<a class="headerlink" href="#im-still-testing-the-website" title="Permalink to this headline">¶</a></h2>
+<p><a href="#id1"><span class="problematic" id="id2">`</span></a>In this notebook notebook</p>
 </div>
 <div class="section" id="plotting-face-offs">
 <h2>Plotting Face-offs<a class="headerlink" href="#plotting-face-offs" title="Permalink to this headline">¶</a></h2>
