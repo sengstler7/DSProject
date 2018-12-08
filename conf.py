@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #
-# DS 320 Project documentation build configuration file, created by
-# sphinx-quickstart on Mon Nov 26 22:32:53 2018.
+# DS 320 Final documentation build configuration file, created by
+# sphinx-quickstart on Fri Dec  7 20:34:58 2018.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -30,7 +30,7 @@
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.githubpages', 'nbsphinx']
+extensions = []
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -42,12 +42,12 @@ templates_path = ['_templates']
 source_suffix = '.rst'
 
 # The master toctree document.
-master_doc = 'index'
+master_doc = 'home.rst'
 
 # General information about the project.
-project = u'DS 320 Project'
-copyright = u'2018, Aaron Zerfas Simon Engstler'
-author = u'Aaron Zerfas Simon Engstler'
+project = u'DS 320 Final'
+copyright = u'2018, Simon Engstler, Aaron Zerfas'
+author = u'Simon Engstler, Aaron Zerfas'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -82,7 +82,7 @@ todo_include_todos = False
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'bizstyle'
+html_theme = 'alabaster'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -99,7 +99,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'DS320Projectdoc'
+htmlhelp_basename = 'DS320Finaldoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -126,8 +126,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'DS320Project.tex', u'DS 320 Project Documentation',
-     u'Aaron Zerfas Simon Engstler', 'manual'),
+    (master_doc, 'DS320Final.tex', u'DS 320 Final Documentation',
+     u'Simon Engstler, Aaron Zerfas', 'manual'),
 ]
 
 
@@ -136,7 +136,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'ds320project', u'DS 320 Project Documentation',
+    (master_doc, 'ds320final', u'DS 320 Final Documentation',
      [author], 1)
 ]
 
@@ -147,8 +147,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'DS320Project', u'DS 320 Project Documentation',
-     author, 'DS320Project', 'One line description of project.',
+    (master_doc, 'DS320Final', u'DS 320 Final Documentation',
+     author, 'DS320Final', 'One line description of project.',
      'Miscellaneous'),
 ]
 

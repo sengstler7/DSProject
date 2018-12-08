@@ -11,7 +11,7 @@ Welcome to DS 320 Project's documentation!
    :caption: Contents:
 
 NHL API Game Data
-+++++++++++++++++++++++
+++++++++++++++++++++++++
 .. figure:: https://cohenconnect.files.wordpress.com/2018/02/nhl-logo.png
 
 Our project uses the NHL API to plot on ice locations for various types of plays that have happened so far this season. 
