@@ -84,7 +84,7 @@ This chart is the location of all the shots (blue) and goals(green) that Winnipe
 ..figure::Laine.png
 
 Most Blocked Shots
-+++++++++++++++++++
++++++++++++++++++++++
 Ian Cole, a defender for the Pittsburgh Penguins takes the crown as the player with the most blocked shots this season. It makes sense that most of his blocks are clustered right in front of the crease, as a defender its his job to protect the net.
 ..figure::IanCole.png
 
