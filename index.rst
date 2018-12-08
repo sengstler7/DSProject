@@ -60,7 +60,8 @@ We can see that he tends to face a lot of shots close to the net, in the slot an
 Hardest Worker
 ++++++++++++++++++
 For our next visualization we created deals with who on the ice is the hardest worker. We took players based on the number of times they appeared as 'Xer' or 'Xee' and added them together.
-..figure:: HarderWorkingPlayerDistrubtion.png
+
+.. figure:: HarderWorkingPlayerDistrubtion.png
 
 Like most sport stat distributions, this plot is heavily skewed. Because all of our plots had the same issue with the skewness, we decided that it would be more interesting to highlight a few specific players and see what they do best.
 
@@ -69,49 +70,55 @@ Hardest Working Player
 +++++++++++++++++++++++++
 We can see in black the hits he takes and gives around the boards, the shots he has blocked and blocks in pink,and the shots and goals in blue and green. He seems to have a lot of ‘dump ins’ or shots from the blue line, and takes a lot of abuse in the corners.
 
-..figure:: BoHorvat.png
+.. figure:: BoHorvat.png
 
 
 Most Effetive Player
 +++++++++++++++++++++
 For the most effective worker, we took the number of times that person was the Xer and divided it by the number of times they were the Xee. The most effective by our measure was Rasmus Ristolainen:
 His graph looks very similar to Bo Horvat's, but with more blocked shots and hits. This makes sense as Ristolainen is a defender, while Horvat plays as a center.
-..figure:: Risto.png 
+.. figure:: Risto.png 
 
 
 Most Goals
 +++++++++++
 This chart is the location of all the shots (blue) and goals(green) that Winnipeg Jets forward Patrik Laine has taken this season.
-..figure:: Laine.png
+
+.. figure:: Laine.png
 
 Most Blocked Shots
 +++++++++++++++++++++
 Ian Cole, a defender for the Pittsburgh Penguins takes the crown as the player with the most blocked shots this season. It makes sense that most of his blocks are clustered right in front of the crease, as a defender its his job to protect the net.
-..figure:: IanCole.png
+
+.. figure:: IanCole.png
 
 
 Most Take-aways
 ++++++++++++++++
 Florida Panthers' forward Aleksander Barkov is the NHL's take-away king. As a center, he is required to be more defensively responsible than his two wings. 
-..figure:: Barkov.png
+
+.. figure:: Barkov.png
 
 
 Most Give-aways
 +++++++++++++++++
 On the other end of the spectrum we have the player with the most give-aways. Somewhat surprisingly this player is Drew Doughty, an all-star defenseman for the Los Angeles Kings.
-..figure:: Doughty.png
+
+.. figure:: Doughty.png
 
 
 Biggest Hitter
 +++++++++++++++
 Hockey is a contact sport, and William Carrier of the Vegas Golden Knights is a perfect example of that. Carrier is leading the NHL in hits this season, and is on pace to break the record for most hits recorded in a season. 
-..figure:: Carrier.png
+
+.. figure:: Carrier.png
 
 
 Least Disciplined
 ++++++++++++++++++
 However, some players cross the line with their play. Whether it be through stick infractions or dangerous hits, players do need to serve their time in the penalty box if they make a mistake. Evander Kane, however has had a tough time learning his lesson, leading the NHL in penalties taken this season.
-..figure:: EvanderKane.png
+
+.. figure:: EvanderKane.png
 
 
 Summary
