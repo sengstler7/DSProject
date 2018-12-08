@@ -52,7 +52,7 @@ Our first question was where certain goalies are more likely to give up goals fr
 
 We can see that he tends to face a lot of shots close to the net, in the slot and in the crease. He tends to give up goals from those regions, as well as from shots near the blueline/point.
 
-..figure:: .../DSProject/Bob.png
+..figure:: ...DSProject/DSProject/Bob.png
 
 
 
