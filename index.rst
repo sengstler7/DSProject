@@ -76,18 +76,18 @@ Most Effetive Player
 +++++++++++++++++++++
 For the most effective worker, we took the number of times that person was the Xer and divided it by the number of times they were the Xee. The most effective by our measure was Rasmus Ristolainen:
 His graph looks very similar to Bo Horvat's, but with more blocked shots and hits. This makes sense as Ristolainen is a defender, while Horvat plays as a center.
-..figure::Risto.png 
+..figure:: Risto.png 
 
 
 Most Goals
 +++++++++++
 This chart is the location of all the shots (blue) and goals(green) that Winnipeg Jets forward Patrik Laine has taken this season.
-..figure::Laine.png
+..figure:: Laine.png
 
 Most Blocked Shots
 +++++++++++++++++++++
 Ian Cole, a defender for the Pittsburgh Penguins takes the crown as the player with the most blocked shots this season. It makes sense that most of his blocks are clustered right in front of the crease, as a defender its his job to protect the net.
-..figure::IanCole.png
+..figure:: IanCole.png
 
 
 Most Take-aways
