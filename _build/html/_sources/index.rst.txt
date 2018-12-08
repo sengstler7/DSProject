@@ -52,7 +52,7 @@ Our first question was where certain goalies are more likely to give up goals fr
 
 We can see that he tends to face a lot of shots close to the net, in the slot and in the crease. He tends to give up goals from those regions, as well as from shots near the blueline/point.
 
-..figure:: home/aaron/DSProject/DSProject/DSProject/Bob.png
+.. figure:: aaron/DSProject/DSProject/DSProject/Bob.png
 
 
 
@@ -62,7 +62,7 @@ Hardest Worker
 For our next visualization we created deals with who on the ice is the hardest worker. We took players based on the number of times they appeared as 'Xer' or 'Xee' and added them together.
 ..figure:: HarderWorkingPlayerDistrubtion.png
 
-Like most sport stat distributions, this plot is heavily skewed. Because all of our plots had the same issue with the skewness, we decided that it would be mroe interesting to highlight a few specific players and see what they do best.
+Like most sport stat distributions, this plot is heavily skewed. Because all of our plots had the same issue with the skewness, we decided that it would be more interesting to highlight a few specific players and see what they do best.
 
 
 Hardest Working Player
