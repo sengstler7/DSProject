@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Welcome to DS 320 Project's documentation!
-==========================================
+===========================================
 
 .. toctree::
    :maxdepth: 2
