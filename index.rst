@@ -47,7 +47,7 @@ We were able to scrape every game so far this season and break down every intere
 
 
 Plotting Goals vs Saves
-+++++++++++++++++++++++++
+++++++++++++++++++++++++++
 Our first question was where certain goalies are more likely to give up goals from. The system we set up is interactive, but because of the limitations of this website, we were unable to port it over. Here is a map of Sergei Bobrovsky.
 
 We can see that he tends to face a lot of shots close to the net, in the slot and in the crease. He tends to give up goals from those regions, as well as from shots near the blueline/point.
