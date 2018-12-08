@@ -61,6 +61,7 @@ Hardest Worker
 ++++++++++++++++++
 For our next visualization we created deals with who on the ice is the hardest worker. We took players based on the number of times they appeared as 'Xer' or 'Xee' and added them together.
 ..figure:: HarderWorkingPlayerDistrubtion.png
+
 Like most sport stat distributions, this plot is heavily skewed. Because all of our plots had the same issue with the skewness, we decided that it would be mroe interesting to highlight a few specific players and see what they do best.
 
 
@@ -68,7 +69,7 @@ Hardest Working Player
 +++++++++++++++++++++++++
 We can see in black the hits he takes and gives around the boards, the shots he has blocked and blocks in pink,and the shots and goals in blue and green. He seems to have a lot of ‘dump ins’ or shots from the blue line, and takes a lot of abuse in the corners.
 
-..figure::BoHorvat.png
+..figure:: BoHorvat.png
 
 
 Most Effetive Player
@@ -92,25 +93,25 @@ Ian Cole, a defender for the Pittsburgh Penguins takes the crown as the player w
 Most Take-aways
 ++++++++++++++++
 Florida Panthers' forward Aleksander Barkov is the NHL's take-away king. As a center, he is required to be more defensively responsible than his two wings. 
-..figure::Barkov.png
+..figure:: Barkov.png
 
 
 Most Give-aways
 +++++++++++++++++
 On the other end of the spectrum we have the player with the most give-aways. Somewhat surprisingly this player is Drew Doughty, an all-star defenseman for the Los Angeles Kings.
-..figure::Doughty.png
+..figure:: Doughty.png
 
 
 Biggest Hitter
 +++++++++++++++
 Hockey is a contact sport, and William Carrier of the Vegas Golden Knights is a perfect example of that. Carrier is leading the NHL in hits this season, and is on pace to break the record for most hits recorded in a season. 
-..figure::Carrier.png
+..figure:: Carrier.png
 
 
 Least Disciplined
 ++++++++++++++++++
 However, some players cross the line with their play. Whether it be through stick infractions or dangerous hits, players do need to serve their time in the penalty box if they make a mistake. Evander Kane, however has had a tough time learning his lesson, leading the NHL in penalties taken this season.
-..figure::EvanderKane.png
+..figure:: EvanderKane.png
 
 
 Summary
