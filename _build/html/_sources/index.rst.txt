@@ -77,6 +77,7 @@ Most Effetive Player
 +++++++++++++++++++++
 For the most effective worker, we took the number of times that person was the Xer and divided it by the number of times they were the Xee. The most effective by our measure was Rasmus Ristolainen:
 His graph looks very similar to Bo Horvat's, but with more blocked shots and hits. This makes sense as Ristolainen is a defender, while Horvat plays as a center.
+
 .. figure:: Risto.png 
 
 
